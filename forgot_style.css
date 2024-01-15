@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+    background-color: #f0f0f0;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.forgot_container {
+    max-width: 320px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.forgot_container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input_box {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.input_box input {
+    height: 40px;
+    width: calc(100% - 20px);
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    color: #333;
+    border-bottom: 1.5px solid #aaaaaa;
+}
+
+.input_box input:focus {
+    border-color: #000;
+}
+
+.input_box input:focus ~ i.email {
+    border-color: #000;
+}
+
+.btn {
+    background: blue;
+    margin-top: 30px;
+    padding-top: 10px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.login_signup {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.login_signup a {
+    color: #333;
+    text-decoration: none;
+}
+
+.login_signup a:hover {
+    text-decoration: underline;
+}
